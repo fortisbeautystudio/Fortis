@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fortis-studio.netlify.app/sitemap.xml
+Sitemap: https://fortis-studio-eight.vercel.app/sitemap.xml
