@@ -1,0 +1,11 @@
+# Local Netlify folder
+.netlify
+
+# Copia generada para publicar en Netlify
+dist/
+
+# Skills locales de Claude Code (no forman parte de la web)
+.claude/
+
+# macOS
+.DS_Store

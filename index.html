@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fortis Studio | Tu salón, en piloto automático</title>
+  <meta name="description" content="Automatizo tu peluquería o salón de uñas para que dejes de perder tiempo, dinero y clientas: recepcionista virtual 24/7 en WhatsApp, recordatorios anti no-shows y reseñas automáticas. Sin comisiones y sin tocar nada técnico.">
+  <meta property="og:title" content="Fortis Studio | Tu salón, en piloto automático">
+  <meta property="og:description" content="Recepcionista virtual 24/7, recordatorios anti no-shows y reseñas automáticas para peluquerías y salones de uñas. Nosotros lo configuramos todo.">
+  <meta name="google-site-verification" content="wotRn-CU2JoGgP2hq1kWEUztcPAZ0Gv8O-p6bzNY_l0">
+  <link rel="canonical" href="https://fortis-studio.netlify.app/">
+  <meta property="og:url" content="https://fortis-studio.netlify.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta name="theme-color" content="#5B3A45">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23FAF7F4' stroke='%235B3A45' stroke-width='3'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-size='34' fill='%235B3A45'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Fortis Studio",
+    "url": "https://fortis-studio.netlify.app/",
+    "description": "Automatización con IA para peluquerías y salones de uñas: recepcionista virtual 24/7, recordatorios y reseñas automáticas.",
+    "areaServed": ["Gran Canaria", "España"],
+    "email": "fortisbeautystudio@gmail.com",
+    "telephone": "+34663104413"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav__inner">
+      <a class="brand" href="#top" aria-label="Fortis Studio, inicio">
+        <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="24" y="32.5" text-anchor="middle">F</text></svg>
+        <span class="brand__word">Fortis<small>Studio</small></span>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu">
+        <span class="sr">Abrir menú</span><span aria-hidden="true"></span>
+      </button>
+      <nav id="menu" class="nav__menu" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#diagnostico">Diagnóstico gratis</a>
+        <a href="#preguntas">Preguntas</a>
+        <a class="btn btn--small" href="#contacto">Recupera tu tiempo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <h1>Tu salón, en piloto automático.</h1>
+          <p class="lede">Una recepcionista virtual contesta tu WhatsApp, agenda citas y recuerda a cada clienta que venga. Tú sigues con las manos en tu trabajo. Nosotros lo configuramos todo; tú no tocas nada técnico.</p>
+          <div class="hero__ctas">
+            <a class="btn" href="#contacto">ME INTERESA</a>
+          </div>
+        </div>
+
+        <figure class="phone-stage" aria-label="Ejemplo de conversación de la recepcionista virtual por WhatsApp">
+          <div class="phone">
+            <div class="phone__bar"><span>23:10</span><span class="phone__notch"></span><span>100%</span></div>
+            <div class="chat__head">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24" /><text x="24" y="32" text-anchor="middle">M</text></svg>
+              <div><strong>Salón Marisol</strong><span>responde al momento</span></div>
+            </div>
+            <ol class="chat" aria-live="off">
+              <li class="msg msg--in">Hola! ¿Tenéis hueco mañana para semipermanente?</li>
+              <li class="msg msg--out">¡Hola Laura! Mañana tengo libre a las <b>10:30</b> y a las <b>17:00</b>. ¿Cuál te viene mejor?</li>
+              <li class="msg msg--in">17:00 perfecto 🙌</li>
+              <li class="msg msg--out">Hecho. Semipermanente mañana a las 17:00. Te escribo el día antes para confirmar ✨</li>
+              <li class="chip">Cita añadida a la agenda</li>
+            </ol>
+          </div>
+          <figcaption>Son las 23:10 y el salón cerró hace tres horas. La agenda sigue abierta.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CALCULADORA -->
+    <section class="calc" id="diagnostico" aria-labelledby="calc-title">
+      <div class="wrap calc__grid">
+        <div>
+          <h2 id="calc-title">Números, no humo</h2>
+          <p class="section-lede">Mueve los valores con los datos de tu salón. Es una estimación sencilla, pero te da una idea de lo que se te escapa cada mes.</p>
+          <form class="calc__form" onsubmit="return false">
+            <label>
+              <span>Precio medio de un servicio</span>
+              <output id="ticket-out">35 €</output>
+              <input id="ticket" type="range" min="15" max="120" step="5" value="35">
+            </label>
+            <label>
+              <span>Citas que no se presentan a la semana</span>
+              <output id="noshow-out">2</output>
+              <input id="noshow" type="range" min="0" max="10" step="1" value="2">
+            </label>
+            <label>
+              <span>Tiempo al día contestando WhatsApp</span>
+              <output id="hours-out">1 h</output>
+              <input id="hours" type="range" min="0" max="4" step="0.5" value="1">
+            </label>
+          </form>
+        </div>
+        <div class="calc__aside">
+          <div class="calc__result" aria-live="polite">
+            <p>Cada mes pierdes en citas vacías</p>
+            <p class="big" id="loss">301 €</p>
+            <p>y dedicas a mensajes</p>
+            <p class="big" id="time">24 horas</p>
+            <p class="calc__note" id="cover">Recuperar solo la mitad de esas citas serían 151 € más cada mes.</p>
+          </div>
+          <div class="calc__diag">
+            <h3>Esto es una estimación. En 30 minutos te damos la cifra real.</h3>
+            <p>Nos reunimos contigo, en tu salón o por videollamada, revisamos tu agenda y te enseñamos el sistema funcionando en un salón real. Sin compromiso.</p>
+            <a class="btn" href="https://wa.me/34663104413?text=Hola%2C%20quiero%20mi%20diagn%C3%B3stico%20gratis" target="_blank" rel="noopener">Quiero mi diagnóstico gratis</a>
+          </div>
+          <div class="trial__guarantee" id="garantia">
+            <h3>Garantía Fortis</h3>
+            <p>Dejamos tu sistema funcionando en un máximo de 15 días. Si no funciona como te prometimos, seguimos trabajando sin coste adicional hasta que funcione. Y si en tu primer mes no te convence, cancelas y no pagas ni una mensualidad más.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="services" id="servicios" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 id="services-title">Tres sistemas que trabajan mientras tú trabajas</h2>
+        <p class="section-lede">No te vendemos un programa para que aprendas a usarlo. Conectamos lo que ya usas, tu WhatsApp y tu agenda, y lo dejamos funcionando.</p>
+
+        <div class="service">
+          <div class="service__name">
+            <h3>Recepcionista Virtual 24/7</h3>
+            <p class="service__pain">Para las llamadas y los mensajes repetidos</p>
+          </div>
+          <div class="service__body">
+            <p>Un asistente conectado a tu WhatsApp que conoce tus servicios, tus precios y tus horarios. Consulta tu agenda en tiempo real, ofrece huecos y deja la cita reservada. Las quejas o los casos especiales te llegan a ti con un aviso.</p>
+            <p class="service__result">Lo que notas: menos interrupciones y reservas que entran por la noche y los domingos.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service__name">
+            <h3>Recordatorios Inteligentes</h3>
+            <p class="service__pain">Para los no-shows y las cancelaciones de última hora</p>
+          </div>
+          <div class="service__body">
+            <p>Entre 24 y 48 horas antes de cada cita, tu clienta recibe un mensaje con botones para confirmar, cancelar o cambiar la hora. Si cancela, el hueco se libera y se ofrece a quien estaba esperando.</p>
+            <p class="service__result">Lo que notas: menos sillas vacías y ninguna confirmación que perseguir a mano.</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service__name">
+            <h3>Motor de Reseñas</h3>
+            <p class="service__pain">Para las reseñas que nunca te acuerdas de pedir</p>
+          </div>
+          <div class="service__body">
+            <p>Cuando tu clienta termina su servicio, recibe un mensaje con el enlace directo para dejar su reseña en Google. Un toque y listo, sin buscar tu salón ni pasos de más.</p>
+            <p class="service__result">Lo que notas: más reseñas cada mes y mejor posición cuando te buscan en Google Maps.</p>
+          </div>
+        </div>
+
+        <div class="later">
+          <h3>Cuando tu salón esté listo para más</h3>
+          <p>Una vez funcionan los tres sistemas, se pueden añadir estos servicios:</p>
+          <ul>
+            <li><strong>Radar de Clientas Inactivas.</strong> Detecta quién lleva semanas sin volver y le escribe con un motivo para reservar.</li>
+            <li><strong>Agenda centralizada.</strong> WhatsApp, Instagram y teléfono en un solo calendario, sin dobles reservas.</li>
+            <li><strong>Página web para tu salón.</strong> Te diseñamos una web propia para atraer más clientas, con tus servicios y reserva directa por WhatsApp.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section class="steps" id="como-funciona" aria-labelledby="steps-title">
+      <div class="wrap">
+        <h2 id="steps-title">De tu agenda de papel a tu primera reserva automática</h2>
+        <p class="section-lede">Unas dos semanas desde que decides empezar hasta que funciona. Tu parte ocupa menos de una hora en total.</p>
+        <ol class="steps__list">
+          <li>
+            <span class="steps__n">1</span>
+            <h3>Analizamos tu negocio</h3>
+            <p>Nos reunimos contigo y vemos cuántas citas, horas y clientas estás perdiendo, con las cifras de tu propia agenda.</p>
+            <p class="steps__who">Gratis y sin compromiso</p>
+          </li>
+          <li>
+            <span class="steps__n">2</span>
+            <h3>Lo configuramos a tu medida</h3>
+            <p>Si decides seguir, con un precio cerrado, conectamos tu WhatsApp con tu agenda y redactamos los mensajes con tu tono.</p>
+            <p class="steps__who">Tú sigues trabajando como siempre</p>
+          </li>
+          <li>
+            <span class="steps__n">3</span>
+            <h3>Lo ves funcionando</h3>
+            <p>Probamos cada caso contigo y lo ponemos en marcha. Ves cómo responde, agenda y recuerda citas a tus clientas reales.</p>
+            <p class="steps__who"><a href="#garantia">Con la Garantía Fortis</a></p>
+          </li>
+          <li>
+            <span class="steps__n">4</span>
+            <h3>Tú solo disfrutas</h3>
+            <p>Tu salón atiende, confirma y consigue reseñas solo, con una cuota fija y sin permanencia.</p>
+            <p class="steps__who">Tu salón, en piloto automático</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DIFERENCIA -->
+    <section class="compare" aria-labelledby="compare-title">
+      <div class="wrap">
+        <h2 id="compare-title">Por qué no es “otra app más”</h2>
+        <p class="section-lede">Si ya probaste un programa de reservas y lo dejaste a medias, no fue culpa tuya: nadie te lo dejó configurado.</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Comparativa">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col"><span class="sr">Aspecto</span></th>
+                <th scope="col" class="is-us">Fortis Studio</th>
+                <th scope="col">Apps de reservas con marketplace</th>
+                <th scope="col">Hacerlo todo a mano</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Quién lo configura</th><td class="is-us">Nuestro equipo, de principio a fin</td><td>Tú, con tutoriales</td><td>Nadie, lo llevas en la cabeza</td></tr>
+              <tr><th scope="row">Comisión por clienta nueva</th><td class="is-us">Ninguna</td><td>Suele ser del 20 al 30 % de la primera visita</td><td>Ninguna</td></tr>
+              <tr><th scope="row">Contesta tu WhatsApp</th><td class="is-us">Sí, a cualquier hora</td><td>Normalmente no</td><td>Cuando puedes</td></tr>
+              <tr><th scope="row">Pensado para salones de belleza</th><td class="is-us">Solo para ellos</td><td>Sí, pero es genérico</td><td>No aplica</td></tr>
+              <tr><th scope="row">Si algo falla</th><td class="is-us">Nos escribes y te atendemos directamente</td><td>Chat de soporte</td><td>Te toca a ti</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="preguntas" aria-labelledby="faq-title">
+      <div class="wrap faq__grid">
+        <div>
+          <h2 id="faq-title">Lo que nos suelen preguntar</h2>
+          <p class="section-lede">¿Te queda alguna duda? Escríbenos por WhatsApp.</p>
+          <a class="btn btn--ghost" href="https://wa.me/34663104413?text=Hola%20Fortis%20Studio%2C%20tengo%20una%20duda" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+        </div>
+        <div class="faq__list">
+          <details>
+            <summary>No se me dan bien los ordenadores. ¿Voy a saber usarlo?</summary>
+            <p>No tienes que usar nada nuevo. Tus clientas te escriben al mismo WhatsApp de siempre y tú ves las citas en tu agenda. Toda la parte técnica la llevamos nosotros, y te lo explicamos en una sesión de media hora.</p>
+          </details>
+          <details>
+            <summary>Mis clientas son de toda la vida. ¿No les va a parecer frío?</summary>
+            <p>Los mensajes se escriben con tu tono y tus expresiones. Además te damos un guion para contarles el cambio como una mejora del salón. Cualquier conversación delicada te llega a ti para que la contestes en persona.</p>
+          </details>
+          <details>
+            <summary>¿Cuánto cuesta?</summary>
+            <p>Depende de lo que necesite tu salón. Después del diagnóstico gratis te damos un precio cerrado: una configuración inicial y una cuota fija al mes, sin permanencia y sin comisiones por tus clientas.</p>
+          </details>
+          <details>
+            <summary>Ya tengo bastantes gastos fijos. ¿Me compensa?</summary>
+            <p>Mira la calculadora de arriba: es lo que ya estás perdiendo cada mes sin darte cuenta. En el diagnóstico gratis te damos la cifra real con tu propia agenda, antes de que decidas nada.</p>
+          </details>
+          <details>
+            <summary>Ya probé una app de reservas y la acabé dejando.</summary>
+            <p>Es lo más habitual: te dan el programa y te dejan sola configurándolo. Aquí te lo dejamos todo funcionando y durante el primer mes cualquier ajuste está incluido.</p>
+          </details>
+          <details>
+            <summary>¿Funciona con el programa que ya uso?</summary>
+            <p>Trabajamos con Google Calendar y con las agendas más comunes del sector. Si usas agenda de papel, empezamos con una digital sencilla y te ayudamos a pasar las citas.</p>
+          </details>
+          <details>
+            <summary>¿Hay permanencia?</summary>
+            <p>No. Puedes darte de baja cuando quieras avisando con un mes de antelación. Tampoco nos llevamos comisión de tus clientas nuevas.</p>
+          </details>
+          <details>
+            <summary>¿Qué pasa si algo deja de funcionar?</summary>
+            <p>Nos escribes o nos llamas y lo resolvemos nosotros. Además revisamos los sistemas de forma periódica para detectar fallos antes que tú.</p>
+          </details>
+          <details>
+            <summary>No tengo tiempo ahora mismo para esto.</summary>
+            <p>Precisamente por eso existe. Tu parte es una conversación de 30 minutos y otra de media hora al final. Lo demás lo hacemos nosotros mientras sigues trabajando.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto" aria-labelledby="contact-title">
+      <div class="wrap contact__grid">
+        <div>
+          <h2 id="contact-title">Cada semana que esperas, alguien se va a otro salón</h2>
+          <p class="section-lede">Mensajes sin contestar, clientas que no aparecen, noches respondiendo WhatsApp. Tú ya tienes suficiente con llevar tu salón. Déjanos la parte que te quita tiempo y dinero, y dedícate a lo que de verdad haces bien.</p>
+          <ul class="contact__direct">
+            <li><a href="https://wa.me/34663104413?text=Hola%2C%20quiero%20tomar%20acci%C3%B3n%20y%20poner%20mi%20sal%C3%B3n%20en%20piloto%20autom%C3%A1tico" target="_blank" rel="noopener">WhatsApp: +34 663 104 413</a></li>
+            <li><a href="mailto:fortisbeautystudio@gmail.com">fortisbeautystudio@gmail.com</a></li>
+          </ul>
+          <p class="form__hint contact__note">Respondemos hoy · Sin permanencia · Con la <a href="#garantia">Garantía Fortis</a></p>
+        </div>
+        <form class="form" id="lead-form" novalidate>
+          <label>Tu nombre<input name="nombre" autocomplete="name" required></label>
+          <label>Nombre del salón<input name="salon" required></label>
+          <label>Teléfono o WhatsApp<input name="telefono" type="tel" autocomplete="tel" required></label>
+          <label>¿Qué te gustaría resolver primero?
+            <select name="plan" id="plan-select">
+              <option>Todavía no lo sé</option>
+              <option>Contestar WhatsApp y agendar citas</option>
+              <option>Evitar no-shows y cancelaciones</option>
+              <option>Conseguir más reseñas</option>
+              <option>Recuperar clientas que ya no vienen</option>
+            </select>
+          </label>
+          <label class="form__wide">¿Qué es lo que más te quita tiempo ahora mismo? <span class="opt">(opcional)</span>
+            <textarea name="mensaje" rows="3"></textarea>
+          </label>
+          <label class="form__check"><input type="checkbox" name="privacidad" required> <span>He leído y acepto la <a href="privacidad.html" target="_blank">política de privacidad</a>.</span></label>
+          <p class="form__error" id="form-error" role="alert" hidden></p>
+          <button class="btn" type="submit">Enviar por WhatsApp</button>
+          <p class="form__hint">Se abrirá WhatsApp con tu mensaje preparado. Solo tienes que pulsar enviar.</p>
+          <details class="form__legal">
+            <summary>Información básica sobre protección de datos</summary>
+            <dl>
+              <dt>Responsable</dt><dd>Fortis Studio (<span class="todo">[NOMBRE Y APELLIDOS]</span>)</dd>
+              <dt>Finalidad</dt><dd>Responder a tu solicitud y organizar tu diagnóstico gratuito.</dd>
+              <dt>Legitimación</dt><dd>Tu consentimiento y la aplicación de medidas precontractuales a petición tuya.</dd>
+              <dt>Destinatarios</dt><dd>No se ceden datos a terceros salvo obligación legal. El mensaje se envía a través de WhatsApp (Meta).</dd>
+              <dt>Derechos</dt><dd>Acceso, rectificación, supresión, oposición, limitación y portabilidad, escribiendo a fortisbeautystudio@gmail.com.</dd>
+              <dt>Más información</dt><dd><a href="privacidad.html">Política de privacidad</a></dd>
+            </dl>
+          </details>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__grid">
+      <div>
+        <a class="brand brand--light" href="#top" aria-label="Fortis Studio, volver arriba">
+          <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5"/><text x="24" y="32.5" text-anchor="middle">F</text></svg>
+          <span class="brand__word">Fortis<small>Studio</small></span>
+        </a>
+        <p>Automatización con IA para peluquerías y salones de uñas. Automatizar no es solo tecnología. Es tiempo devuelto.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <a href="#servicios">Servicios</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#diagnostico">Diagnóstico gratis</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <div>
+        <a href="https://wa.me/34663104413" target="_blank" rel="noopener">+34 663 104 413</a>
+        <a href="mailto:fortisbeautystudio@gmail.com">fortisbeautystudio@gmail.com</a>
+        <p>Gran Canaria, España</p>
+      </div>
+    </div>
+    <div class="wrap footer__legal">
+      <p>© <span id="year">2026</span> Fortis Studio</p>
+      <nav aria-label="Textos legales">
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="privacidad.html">Política de privacidad</a>
+        <a href="cookies.html">Política de cookies</a>
+      </nav>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/34663104413?text=Hola%20Fortis%20Studio%2C%20me%20interesa%20vuestro%20servicio" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.7c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.7 10.7 0 1 1 16 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.8 8.8 0 0 1-4.4-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.6 5.8 5 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
